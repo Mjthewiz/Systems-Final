@@ -6,10 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shirts</title>
 </head>
-<nav></nav>
+<nav>
+    <ul class="nav">
+        <li><a href="default.htm">Home</a></li>
+        <li><a href="Shirts.htm">Shirts</a></li>
+        <li><a href="inventory.htm">Inventory</a></li>
+      </ul>
+</nav>
 <h1>Fill out the informations below!</h1>
 <body>
-    <form action "({ur('/shirts')}}" meathod = "POST">
+    <form action "({('/shirts')}}" meathod = "POST">
        <p>Name</p>
        <p><input type="text" name ="shirts"/></p>
        <p>Size</p>
