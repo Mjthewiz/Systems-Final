@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whats in stock?</title>
+</head>
+<nav></nav>
+<body>
+    {% for row in row %}
+    <p>{{row row["name"] }}</p>
+    <p>{{row row["size"] }}</p>
+    <p>{{row row["color"] }}</p>
+    <br/>
+    {% endfor %}
+</body>
+<footer><h6>321st Imperial Legion claims <b>NO</b> ownship over the Star Wars Brand</h6>
+    <h6>Star Wars is a trade mark of the Walk Dinsey Comapy, all use of their images is trasnformative and is protected under Fair use law.</h6></footer>
+</html>

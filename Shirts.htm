@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome!</title>
+    <title>Shirts</title>
 </head>
-<nav>
-
-</nav>
+<nav></nav>
+<h1>Fill out the informations below!</h1>
 <body>
-    <h2>Welcome to the 321st Shirt order form!</h2>
-    <p>This is where you can order your custom unit shirt to suppor the 321st Imperal Legion in public! Navagate to the "Shirts" page to select witch shirt you want! Move to the "Stock" list to see what is left of each shirt!</p>
+    <form action "({ur('/shirts')}}" meathod = "POST">
+       <p>Name</p>
+       <p><input type="text" name ="shirts"/></p>
+       <p>Size</p>
+       <p><input type="text" name ="size"/></p>
+       <p>Color</p>
+       <p><input type="text" name ="color"/></p>
 
+       <p><input type="submit" value="Submit"/></p>
+    </form>
+    
 </body>
 <footer>
     <h6>321st Imperial Legion claims <b>NO</b> ownship over the Star Wars Brand</h6>
